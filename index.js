@@ -7,7 +7,7 @@ const config = require("./Configuration/configuration.json")
 const GetLogger = require("./Tasks/GetLogger.js")
 let wait = async (ms) => await new Promise(r => setTimeout(r,ms));
 
-let i = 6
+let i = 0
 
 const commandFiles = fs.readdirSync("./Commands").filter(file => file.endsWith('.js'));
 const buttonFiles = fs.readdirSync('./Buttons').filter(file => file.endsWith('.js'));
@@ -128,16 +128,6 @@ for (const file of eventFiles) {
         client.once(event.name, (...args) => event.execute(...args, client));
     } else {
         client.on(event.name, (...args) => event.execute(...args, client));
-    }
-}
-
-//Logs Handler
-for (const file of loggerFiles) {
-    const event = require(`./Logger/${file}`);
-    if (event.once) {
-        client.once(event.name, (...args) => event.execute(...args, client));
-    } else {
-    let wait = async (ms) => await new Promise(r => setTimeout(r,ms));    client.on(event.name, (...args) => event.execute(...args, client));
     }
 }
 
