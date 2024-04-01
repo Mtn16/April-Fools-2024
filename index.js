@@ -12,7 +12,6 @@ let i = 0
 const commandFiles = fs.readdirSync("./Commands").filter(file => file.endsWith('.js'));
 const buttonFiles = fs.readdirSync('./Buttons').filter(file => file.endsWith('.js'));
 const eventFiles = fs.readdirSync('./Events').filter(file => file.endsWith('.js'));
-const loggerFiles = fs.readdirSync('./Logger').filter(file => file.endsWith('.js'));
 
 //Error logger
 process.on('uncaughtException', (error) => {
