@@ -1,0 +1,37 @@
+2024-03-18T18:08:40.391Z: Error: Used disallowed intents
+2024-03-19T12:42:10.737Z: DiscordAPIError[40060]: Interaction has already been acknowledged.
+2024-03-19T13:53:29.676Z: DiscordAPIError[10008]: Unknown Message
+2024-03-19T13:53:58.556Z: DiscordAPIError[50035]: Invalid Form Body
+data.components[0].components[0].options[0].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+data.components[0].components[0].options[1].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+2024-03-19T14:15:23.514Z: DiscordAPIError[10015]: Unknown Webhook
+2024-03-29T14:54:01.983Z: Error [TokenInvalid]: An invalid token was provided.
+2024-03-29T15:02:08.699Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:08.991Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:09.867Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:10.101Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:10.858Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:11.088Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:36.665Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:36.911Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:37.666Z: TypeError: Assignment to constant variable.
+2024-03-29T15:02:37.911Z: TypeError: Assignment to constant variable.
+2024-03-29T15:03:31.700Z: TypeError: Assignment to constant variable.
+2024-03-29T15:03:31.912Z: TypeError: Assignment to constant variable.
+2024-03-29T15:03:34.883Z: TypeError: Assignment to constant variable.
+2024-03-29T15:03:35.057Z: TypeError: Assignment to constant variable.
+2024-03-29T21:15:29.695Z: ReferenceError: ActionRowBuilder is not defined
+2024-03-29T21:17:19.363Z: TypeError: message.edit is not a function
+2024-03-29T23:10:48.093Z: DiscordAPIError[50035]: Invalid Form Body
+components[0].components[0].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+components[0].components[2].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+components[1].components[1].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+components[1].components[3].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+2024-03-30T10:37:30.871Z: ReferenceError: Message is not defined
+2024-03-30T10:41:52.537Z: DiscordAPIError[50013]: Missing Permissions
+2024-03-30T10:41:59.226Z: DiscordAPIError[50013]: Missing Permissions
+2024-03-30T19:50:58.819Z: DiscordAPIError[50035]: Invalid Form Body
+components[0].components[0].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+components[0].components[2].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+components[1].components[1].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
+components[1].components[3].emoji.name[BUTTON_COMPONENT_INVALID_EMOJI]: Invalid emoji
